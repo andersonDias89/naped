@@ -1,4 +1,8 @@
+import { useRouter } from "next/router"
+
 export function InitialPage() {
+    const router = useRouter()
+
     return (
         <section className="w-full flex-col">
             <div className="w-4/5 m-auto mt-10">
@@ -19,7 +23,13 @@ export function InitialPage() {
                 <div className='grid grid-cols-3 gap-1 mt-5'>
                     <div className='img1 col-span-2 h-80 p-3 flex flex-col justify-between'>
                         <div>
-                            <button className='bg-purple px-2 py-1 text-sm rounded-md hover:bg-violet-600 transition-colors'>Visualizar</button>
+                            <button
+                                onClick={() => router.push('/noticias')}
+                                type="button"
+                                className="bg-purple px-2 py-1 text-xs rounded-md hover:bg-violet-600 transition-colors"
+                            >
+                                Visualizar
+                            </button>
                         </div>
 
                         <div>
@@ -35,7 +45,13 @@ export function InitialPage() {
                     <div className='gap-1 grid grid-rows-2'>
                         <div className='img2 p-3 flex flex-col justify-between'>
                             <div>
-                                <button className='bg-purple px-2 py-1 text-xs rounded-md hover:bg-violet-600 transition-colors '>Visualizar</button>
+                                <button
+                                    onClick={() => router.push('/noticias')}
+                                    type="button"
+                                    className="bg-purple px-2 py-1 text-xs rounded-md hover:bg-violet-600 transition-colors"
+                                >
+                                    Visualizar
+                                </button>
                             </div>
 
                             <div>
@@ -48,14 +64,20 @@ export function InitialPage() {
                         </div>
                         <div className='img3 p-3 flex flex-col justify-between'>
                             <div>
-                                <button className='bg-purple px-2 py-1 text-xs rounded-md hover:bg-violet-600 transition-colors '>Visualizar</button>
+                                <button
+                                    onClick={() => router.push('/noticias')}
+                                    type="button"
+                                    className="bg-purple px-2 py-1 text-xs rounded-md hover:bg-violet-600 transition-colors"
+                                >
+                                    Visualizar
+                                </button>
                             </div>
 
                             <div>
                                 <p className='text-xs'>
                                     Lorem ipsum dolor sit amet consectetur
                                     adipisicing elit. Voluptatibus
-                                    sint maiores 
+                                    sint maiores
                                 </p>
                             </div>
                         </div>
