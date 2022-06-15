@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    @apply bg-dark text-white font-light
+}
+
+.img1 {
+    
+    background-image: linear-gradient(to top, #13131F, transparent), url(../../public/assets/img1.png);
+    background-position: center;
+    background-size: cover;  
+    background-repeat: no-repeat;  
+}
+
+.img2 {
+    background-image: linear-gradient(to top, #13131F, transparent), url(../../public/assets/img2.png);
+    background-position: center;
+    background-size: cover;  
+    background-repeat: no-repeat;  
+}
+
+.img3 {
+    background-image: linear-gradient(to top, #13131F, transparent), url(../../public/assets/img3.png);
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;  
+}
+
+.img4 {
+    background-image: linear-gradient(to top, #13131F, transparent), url(../../public/assets/img4.png);
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;  
+}
+
+.img5 {
+    background-image: linear-gradient(to top, #13131F, transparent), url(../../public/assets/img5.png);
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;  
+}
+
+.img6 {
+    background-image: linear-gradient(to top, #13131F, transparent), url(../../public/assets/img6.png);
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;  
+}
+
+.img7 {
+    background-image: linear-gradient(to top, #13131F, transparent), url(../../public/assets/img7.png);
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;  
+}
+
+.img8 {
+    background-image: linear-gradient(to top, #13131F, transparent), url(../../public/assets/img8.png);
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;  
+}
+
+.img9 {
+    background-image: linear-gradient(to top, #13131F, transparent), url(../../public/assets/img9.png);
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;  
+}
+
+.img10 {
+    background-image: linear-gradient(to top, #13131F, transparent), url(../../public/assets/img10.png);
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;  
+}
+
+.img11 {
+    background-image: linear-gradient(to top, #13131F, transparent), url(../../public/assets/img11.png);
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;  
+}
+
+.img12 {
+    background-image: linear-gradient(to top, #13131F, transparent), url(../../public/assets/img12.png);
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;  
+}
+
+.img13 {
+    background-image: linear-gradient(to top, #13131F, transparent), url(../../public/assets/img13.png);
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;  
+}
+
+.img14 {
+    background-image: linear-gradient(to top, #13131F, transparent), url(../../public/assets/img14.png);
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;  
+}
+
+.img15 {
+    background-image: linear-gradient(to top, #13131F, transparent), url(../../public/assets/img15.png);
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;  
+}
+
+.img16 {
+    background-image: linear-gradient(to top, #13131F, transparent), url(../../public/assets/img16.png);
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;  
+}
+
+.img17 {
+    background-image: linear-gradient(to top, #13131F, transparent), url(../../public/assets/img17.png);
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;  
+}
+
+.sizeLarge {
+    height: 800px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 4px;
+  }
+  
+  /* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo cinza escuro*/
+  ::-webkit-scrollbar-track {
+    background: #1e1e2d;
+  }
+  
+  /* aqui é a alça da barra, que demonstra a altura que você está na página
+  estou colocando uma cor azul clara nela*/
+  ::-webkit-scrollbar-thumb {
+    background: #8257E6;
+  }
