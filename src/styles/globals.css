@@ -127,6 +127,27 @@ body {
     background-repeat: no-repeat;  
 }
 
+.anime-img1 {
+    background-image: linear-gradient(to top, #13131F, transparent), url(../../public/assets/animes-img1.png);
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;  
+}
+
+.anime-img2 {
+    background-image: linear-gradient(to top, #13131F, transparent), url(../../public/assets/animes-img2.png);
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;  
+}
+
+.animesBg {
+    background-image: linear-gradient(to right, #13131F, transparent), url(../../public/assets/animes-bg.png);
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;   
+}
+
 .sizeLarge {
     height: 800px;
 }
