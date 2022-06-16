@@ -16,6 +16,7 @@ module.exports = {
         "xl": {"max": "1609px"},
         "lg": {"max": "992px"},
         "md": {"max": "780px"},
+        "cell": {"min": "781px"},
         "sm": {"max": "730px"},
         "xs": {"max": "400px"},
       }

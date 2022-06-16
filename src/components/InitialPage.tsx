@@ -5,7 +5,7 @@ export function InitialPage() {
 
     return (
         <section className="w-full flex-col">
-            <div className="w-4/5 sm:w-11/12 m-auto mt-10">
+            <div className="w-4/5 md:w-11/12 m-auto mt-10">
                 <div className="w-2/5 md:w-full space-y-2">
                     <h1 className="flex flex-col text-4xl">
                         <span>Mundo Nerd?</span>

@@ -152,6 +152,11 @@ body {
     height: 800px;
 }
 
+.shadowToggle {
+    box-shadow: 0px 100px 400px black;
+    box-shadow: 0px 10px 40px black;
+}
+
 ::-webkit-scrollbar {
     width: 5px;
     height: 4px;
