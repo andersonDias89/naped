@@ -3,8 +3,8 @@ import { CardRecentNews } from "./CardRecentNews";
 export function RecentNews() {
     return (
         <section className="w-full mt-10">
-            <div className="w-4/5 m-auto">
-                <div className="w-1/4">
+            <div className="w-4/5 sm:w-11/12 m-auto">
+                <div className="w-1/4 sm:w-full">
                     <h2 className="text-xl border-b-4 border-purple pb-2 mb-4">Notícias mais recentes</h2>
                 </div>
 

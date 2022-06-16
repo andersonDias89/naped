@@ -3,7 +3,7 @@ import Logo from '../assets/logo-naped.svg'
 export function Footer() {
     return (
         <footer className="w-full flex items-center justify-center py-10">
-            <div className="w-1/3 flex flex-col items-center justify-center space-y-2">
+            <div className="w-1/3 sm:w-full flex flex-col items-center justify-center space-y-2">
                 <div>
                     <img src={'/assets/logo-naped.svg'} alt="Logo naped" />
                 </div>

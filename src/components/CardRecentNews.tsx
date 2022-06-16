@@ -9,7 +9,7 @@ export function CardRecentNews({ image, info }: CardRecentNewsProps) {
     const router = useRouter()
 
     return (
-        <div className={`${image} h-52 w-80 xl:w-96 xl:justify-between justify-around flex flex-col p-3`}>
+        <div className={`${image} h-52 w-80 sm:h-96 sm:w-full xl:justify-between justify-around flex flex-col p-3`}>
             <div>
                 <button
                     onClick={() => router.push('/noticias')}

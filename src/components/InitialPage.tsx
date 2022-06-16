@@ -43,8 +43,8 @@ export function InitialPage() {
                         </div>
                     </div>
 
-                    <div className='gap-1 flex-1 sm:flex sm:flex-row'>
-                        <div className='img2 p-3 h-1/2 sm:w-1/2  sm:h-44 flex flex-col justify-between'>
+                    <div className='gap-1 flex-1 sm:flex sm:flex-row xs:w-full xs:flex-col'>
+                        <div className='img2 p-3 h-1/2 sm:w-1/2 xs:w-full sm:h-44 flex flex-col justify-between'>
                             <div>
                                 <button
                                     onClick={() => router.push('/noticias')}
@@ -64,7 +64,7 @@ export function InitialPage() {
                             </div>
                         </div>
 
-                        <div className='img3 p-3 h-1/2 sm:h-44 sm:w-1/2 flex flex-col justify-between'>
+                        <div className='img3 p-3 h-1/2 xs:w-full sm:h-44 sm:w-1/2 flex flex-col justify-between'>
                             <div>
                                 <button
                                     onClick={() => router.push('/noticias')}
