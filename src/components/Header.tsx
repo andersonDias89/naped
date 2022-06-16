@@ -4,14 +4,14 @@ import Link from "next/link";
 export function Header() {
     return (
         <header className="w-full h-14 flex items-center mb-10">
-            <div className="w-4/5 m-auto flex items-center justify-between">
+            <div className="w-4/5 sm:w-11/12 m-auto flex items-center justify-between">
                 
                     <Link href={'/'}>
                         <img className="cursor-pointer" src={'/assets/logo-naped.svg'} alt="Logo naped" />
                     </Link>
 
                     <div className='flex space-x-8'>
-                        <nav>
+                        <nav className="md:hidden">
                             <ul className='flex space-x-5'>
                                 <li className='hover:border-b-2 hover:border-purple transition-colors'><Link href={'/'}>Home</Link></li>
                                 <li className='hover:border-b-2 hover:border-purple transition-colors'><a href="#">Séries</a></li>

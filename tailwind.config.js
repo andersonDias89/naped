@@ -11,6 +11,13 @@ module.exports = {
         purple: "#8257E6",
         white: "#FEFBFB",
         gray: "#282830",
+      },
+      screens: {
+        "xl": {"max": "1609px"},
+        "lg": {"max": "992px"},
+        "md": {"max": "780px"},
+        "sm": {"max": "700px"},
+        "xs": {"max": "280px"},
       }
     },
   },
