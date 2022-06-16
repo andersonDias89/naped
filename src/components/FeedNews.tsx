@@ -5,8 +5,8 @@ import { CardFeedNewsAside } from "./CardFeedNewsAside"
 export function FeedNews() {
     return (
         <section className="w-full mt-5">
-            <div className="w-4/5 m-auto grid grid-cols-3  ">
-                <div className="grid col-span-2 w-11/12 sizeLarge overflow-y-auto py-4 pr-3 ">
+            <div className="w-4/5 sm:w-11/12 m-auto flex sm:flex-col">
+                <div className=" w-2/3 sm:w-full sizeLarge overflow-y-auto py-4 pr-3 ">
                     {feedNews.map(post => {
                         return (
                             <CardFeedNews
@@ -19,11 +19,11 @@ export function FeedNews() {
                     })}
                 </div>
 
-                <div>
+                <div className="flex-1 pl-3 sm:pl-0">
                     <div className="w-4/5 border-b-4 border-purple mb-3 pb-2">
                         <h2 className="text-xl">Lorem ipsum dolor</h2>
                     </div>
-                    <div className="grid col-span-1 space-y-3">
+                    <div className=" space-y-3">
                         {feedNewsAside.map(postAside => {
                             return (
                                 <CardFeedNewsAside
