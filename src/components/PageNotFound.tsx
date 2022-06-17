@@ -4,7 +4,7 @@ export function PageNotFound() {
     const router = useRouter()
 
     return (
-        <div className="w-full h-screen flex items-center ">
+        <section className="w-full h-screen flex items-center ">
             <div className="w-4/5 m-auto flex items-center lg:flex-col lg:w-11/12 lg:space-y-8">
                 <div className="w-1/2 lg:w-full flex items-center justify-center">
                     <div>
@@ -29,6 +29,6 @@ export function PageNotFound() {
                     <img className="lg:w-60" src={'/assets/img-404.png'} alt="Ilustração do erro 404" />
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

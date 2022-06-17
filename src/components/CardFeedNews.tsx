@@ -11,7 +11,7 @@ export function CardFeedNews({ image, title, subTitle, date }: CardFeedNewsProps
     const router = useRouter()
 
     return (
-        <div className="flex xs:flex-col xs:space-x-0 xs: space-x-3 xs:mb-5 mb-3">
+        <article className="flex xs:flex-col xs:space-x-0 xs: space-x-3 xs:mb-5 mb-3">
             <div className={`${image} w-44 h-36 xs:mb-2 xs:w-full xs:h-48 bg-center bg-cover`} />
             <div className="flex-1">
                 <div className="flex flex-col justify-between">
@@ -33,6 +33,6 @@ export function CardFeedNews({ image, title, subTitle, date }: CardFeedNewsProps
                     Ler notícia
                 </button>
             </div>
-        </div>
+        </article>
     )
 }

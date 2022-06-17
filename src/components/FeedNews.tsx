@@ -19,7 +19,7 @@ export function FeedNews() {
                     })}
                 </div>
 
-                <div className="flex-1 pl-3 sm:pl-0">
+                <aside className="flex-1 pl-3 sm:pl-0">
                     <div className="w-4/5 border-b-4 border-purple mb-3 pb-2">
                         <h2 className="text-xl">Lorem ipsum dolor</h2>
                     </div>
@@ -33,7 +33,7 @@ export function FeedNews() {
                             )
                         })}
                     </div>
-                </div>
+                </aside>
             </div>
         </section>
     )
