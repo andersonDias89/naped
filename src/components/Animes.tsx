@@ -19,9 +19,10 @@ export function Animes() {
                 <InputSeach />
 
                 <div className='flex flex-wrap justify-between sm:justify-center'>
-                    {newsAnimes.map(post => {
+                    {newsAnimes.map((post, index) => {
                         return (
                             <CardNewsAnimes
+                            key={index}
                                 image={post.image}
                                 infoAnime={post.infoAnime}
                             />
