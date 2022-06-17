@@ -7,9 +7,10 @@ export function FeedNews() {
         <section className="w-full mt-5">
             <div className="w-4/5 lg:w-11/12 m-auto flex sm:flex-col">
                 <div className=" w-2/3 sm:w-full sm:mb-4 sizeLarge overflow-y-auto py-4 pr-3 ">
-                    {feedNews.map(post => {
+                    {feedNews.map((post, index) => {
                         return (
                             <CardFeedNews
+                                key={index}
                                 image={post.image}
                                 title={post.title}
                                 subTitle={post.subTitle}
@@ -24,9 +25,10 @@ export function FeedNews() {
                         <h2 className="text-xl">Lorem ipsum dolor</h2>
                     </div>
                     <div className=" space-y-3">
-                        {feedNewsAside.map(postAside => {
+                        {feedNewsAside.map((postAside, index) => {
                             return (
                                 <CardFeedNewsAside
+                                    key={index}
                                     imageAside={postAside.image}
                                     info={postAside.info}
                                 />

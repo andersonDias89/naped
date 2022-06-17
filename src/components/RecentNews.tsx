@@ -9,9 +9,10 @@ export function RecentNews() {
                 </div>
 
                 <div className="flex flex-wrap justify-between md:justify-center gap-y-6 mt-4">
-                    {recentNews.map(postRecent => {
+                    {recentNews.map((postRecent, index) => {
                         return (
                             <CardRecentNews
+                            key={index}
                             image={postRecent.image}
                             info={postRecent.info}
                             />
