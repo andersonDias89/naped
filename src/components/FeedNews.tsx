@@ -79,6 +79,20 @@ const feedNews = [
         date: '22/05/2021'
     },
 
+    {
+        image: 'anime-img1',
+        title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum recusandae nesciunt',
+        subTitle: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione dolor, distinctio dicta molestiae consequuntur excepturi',
+        date: '22/05/2021'
+    },
+
+    {
+        image: 'anime-img2',
+        title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum recusandae nesciunt',
+        subTitle: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione dolor, distinctio dicta molestiae consequuntur excepturi',
+        date: '22/05/2021'
+    },
+
 ]
 
 const feedNewsAside = [

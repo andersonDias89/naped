@@ -53,7 +53,7 @@ export function Header({ }) {
                 </div>
 
                 {isVisible === true &&
-                    <nav className="bg-gray z-50 h-screen top-0 right-0 w-2/3 fixed shadowToggle">
+                    <nav className="bg-gray z-50 h-screen top-0 right-0 w-2/3 fixed shadowToggle origin-right">
                         <div className="w-full flex justify-end p-4">
                             <button
                                 className="text-2xl"
