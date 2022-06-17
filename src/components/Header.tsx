@@ -20,7 +20,7 @@ export function Header({ }) {
         <>
             <header className="w-full h-14 flex items-center mb-10">
 
-                <div className="w-4/5 md:w-11/12 m-auto flex items-center justify-between">
+                <div className="w-4/5 lg:w-11/12 m-auto flex items-center justify-between">
 
                     <Link href={'/'}>
                         <img className="cursor-pointer" src={'/assets/logo-naped.svg'} alt="Logo naped" />

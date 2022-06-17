@@ -15,10 +15,10 @@ module.exports = {
       screens: {
         "xl": {"max": "1609px"},
         "lg": {"max": "992px"},
-        "md": {"max": "780px"},
-        "cell": {"min": "781px"},
+        "md": {"max": "850px"},
+        "cell": {"min": "851px"},
         "sm": {"max": "730px"},
-        "xs": {"max": "400px"},
+        "xs": {"max": "450px"},
       }
     },
   },

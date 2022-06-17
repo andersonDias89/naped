@@ -5,8 +5,8 @@ import { CardFeedNewsAside } from "./CardFeedNewsAside"
 export function FeedNews() {
     return (
         <section className="w-full mt-5">
-            <div className="w-4/5 md:w-11/12 m-auto flex sm:flex-col">
-                <div className=" w-2/3 sm:w-full sizeLarge overflow-y-auto py-4 pr-3 ">
+            <div className="w-4/5 lg:w-11/12 m-auto flex sm:flex-col">
+                <div className=" w-2/3 sm:w-full sm:mb-4 sizeLarge overflow-y-auto py-4 pr-3 ">
                     {feedNews.map(post => {
                         return (
                             <CardFeedNews

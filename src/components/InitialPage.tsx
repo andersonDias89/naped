@@ -5,7 +5,7 @@ export function InitialPage() {
 
     return (
         <section className="w-full flex-col">
-            <div className="w-4/5 md:w-11/12 m-auto mt-10">
+            <div className="w-4/5 lg:w-11/12 m-auto mt-10">
                 <div className="w-2/5 md:w-full space-y-2">
                     <h1 className="flex flex-col text-4xl">
                         <span>Mundo Nerd?</span>
@@ -20,7 +20,7 @@ export function InitialPage() {
                     </div>
                 </div>
 
-                <div className=' gap-1 flex sm:flex-col mt-5'>
+                <div className=' gap-1 flex sm:space-y-2 sm:flex-col mt-5'>
                     <div className='img1 h-80 p-3 w-2/3 sm:w-full flex flex-col justify-between'>
                         <div>
                             <button
@@ -43,7 +43,7 @@ export function InitialPage() {
                         </div>
                     </div>
 
-                    <div className='gap-1 flex-1 sm:flex sm:flex-row xs:w-full xs:flex-col'>
+                    <div className='gap-1 flex-1 sm:space-y-2 sm:flex sm:flex-row xs:w-full xs:flex-col'>
                         <div className='img2 p-3 h-1/2 sm:w-1/2 xs:w-full sm:h-44 flex flex-col justify-between'>
                             <div>
                                 <button

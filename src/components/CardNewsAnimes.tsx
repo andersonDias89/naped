@@ -10,7 +10,7 @@ export function CardNewsAnimes({ image, infoAnime }: CardNewsAnimeProps) {
 
     return (
 
-        <article className={`${image} h-52 w-64 flex flex-col justify-between p-3 mb-10`}>
+        <article className={`${image} xs:w-full h-52 w-64 flex flex-col justify-between p-3 mb-10`}>
             <div>
                 <button
                     onClick={() => router.push('/noticias')}

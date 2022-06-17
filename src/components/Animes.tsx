@@ -5,7 +5,7 @@ import { InputSeach } from './InputSeach'
 export function Animes() {
     return (
         <div className="w-full">
-            <div className="w-4/5 m-auto">
+            <div className="w-4/5 lg:w-11/12 m-auto">
                 <header className="w-full animesBg h-56 flex items-center">
                     <div className="ml-8 space-y-1">
                         <h1 className="text-2xl font-bold">Animes</h1>
@@ -18,7 +18,7 @@ export function Animes() {
 
                 <InputSeach />
 
-                <div className='flex flex-wrap justify-between'>
+                <div className='flex flex-wrap justify-between sm:justify-center'>
                     {newsAnimes.map(post => {
                         return (
                             <CardNewsAnimes

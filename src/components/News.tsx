@@ -2,7 +2,7 @@ export function News() {
     return (
 
         <div className="w-full mt-10">
-            <div className="w-4/5 m-auto">
+            <div className="w-4/5 lg:w-11/12 m-auto">
                 <header className="mb-4">
                     <h1 className="text-xl mb-3">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
